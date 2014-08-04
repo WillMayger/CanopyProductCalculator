@@ -1,0 +1,41 @@
+#bodyContainer{
+	width:708px;
+	height:300px;
+	background-color:#FBFBFB;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+#canopyLogo {
+	margin-left:0px;
+	width:0px;
+	height:0px;
+	margin-top:0px;
+}
+#headingDiv {
+	height:0px;
+	margin-top:0px;
+	width:0%;
+}
+#canopyLogoP {
+	margin-left:0px;
+	width:175px;
+	height:40px;
+	margin-top:-10px;
+}
+
+.subHCalcDiv{
+	height:50px;
+	background-color:#CE85E6;
+	margin-top:0px;
+	border-top:2px solid #A56AB8;
+	border-bottom: 1px solid #D6A8E5;
+	width:100%;
+}
+.subheadingCalc{
+	font-size:20px;
+	font-family:arial;
+	font-weight: bold;
+	margin-top:25px;
+	margin-left:175px;
+	color:white;
+}

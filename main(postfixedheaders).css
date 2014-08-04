@@ -1,0 +1,249 @@
+html, body {
+
+height: 100%;
+width:100%;
+background-color: #FBFBFB;
+
+}
+
+#bodyContainer{
+	width:1340px;
+	height:540px;
+	background-color:#FBFBFB;
+	
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+#whiteline{
+margin-top:500px;
+}
+#canopyLogoP {
+	margin-left:0px;
+	width:0px;
+	height:0px;
+	margin-top:0px;
+}
+#canopyLogo {
+	margin-left:80px;
+	width:225px;
+	height:108px;
+	margin-top:-50px;
+	position:fixed;
+}
+#headingDiv {
+	background-color:#F2F2F6;
+	height:96px;
+	margin-top:0px;
+	width:100%;
+	position:fixed;
+}
+.subHCalcDiv{
+	height:40px;
+	background-color:#CE85E6;
+	margin-top:66px;
+	border-top:3px solid #A56AB8;
+	border-bottom: 2px solid #D6A8E5;
+	width:100%;
+		position:fixed;
+}
+.subheadingCalc{
+	font-size:26px;
+	font-family:arial;
+	font-weight: bold;
+	margin-top:5px;
+	margin-left:90px;
+	color:white;
+		position:fixed;
+}
+#blueprintSecDiv{
+	width:427.3px;
+	margin-top: 111px;
+	border-top:12px solid #FDFDFD;
+	border-left:15px solid #FDFDFD;
+	border-bottom:15px solid #FDFDFD;
+	border-right:7px solid #FDFDFD;
+	background-color:#e1f2fa;
+	height:512px;
+	float:left;
+	border-radius:15px;
+}
+.innerDivs{
+	background-color:#5dbae4;
+	margin:auto;
+	height:92.5%;
+	width:90%;
+	border-radius:3px;
+	
+	
+}
+
+.blueprintH2{
+	margin-top:20px;
+	text-align:center;
+	font-family:arial;
+	font-weight: bold;
+	color:white;
+}
+#Blueprints{
+	display:block;
+	width:250px;
+	margin:auto;
+	color:grey;
+	margin-top:6px;
+} 
+form  legend#bp{
+margin-top:298px;
+}
+#plusButton{
+display:block;
+margin: auto;
+margin-top:9px;
+width:200px;
+height:50px;
+    
+}
+.additionalDiv{
+	border-radius:15px;
+	width:427px;
+	margin-top: 111px;
+	border-top:12px solid #FDFDFD;
+	border-left:7px solid #FDFDFD;
+	border-bottom:15px solid #FDFDFD;
+	border-right:7px solid #FDFDFD;
+	background-color:#e1f2fa;
+	height:512px;
+	float:left;
+}
+.inputBoxProcessor{
+	width:60px;
+	color:grey;
+}
+#inputBoxProcessorOne{
+	margin-left:80px;
+}
+
+#divInput{
+color:white;
+}
+
+#divInputCB{
+	color:white;
+}
+
+#VPCSubscription{
+	margin-left:80px;
+}
+form  legend#ad{
+margin-top:73px;
+}
+#additionalButtonAdd{
+	display:block;
+margin:auto;
+margin-top:9px;
+width:200px;
+height:50px;
+}
+
+#divFinalThird{
+	border-radius:15px;
+	margin-top: 111px;
+	border-top:12px solid #FDFDFD;
+	border-left:7px solid #FDFDFD;
+	border-bottom:15px solid #FDFDFD;
+	border-right:15px solid #FDFDFD;
+	background-color:#e1f2fa;
+	height:512px;
+	width:427.3px;
+	float:left;
+}
+
+
+  div.scrollableContainer { 
+        height: 300px; 
+        overflow: auto;  
+        width: 100%; 
+            
+        
+        background: #5dbae4;     
+        }
+
+#tableFull{
+	overflow:auto; 
+	width: 100%;
+	height: 150px;
+	margin-top: -9px;
+	color:white;
+	border: 15px solid #5dbae4;
+	border-radius:5px;
+}
+#theadcol{
+background-color:#4182A0;
+color:white;
+}
+#tableRow{
+background-color:#4C96B8;
+}
+#totalCostDivFinal{
+overflow:auto; 
+	width: 80%;
+height:30px;
+background-color: #54A7CD;
+margin:auto;
+border:15px solid #5dbae4;
+	border-radius:20px;
+	text-align:center;
+	color:white;
+	
+}
+.totalCostDivFinal{
+overflow:auto; 
+	width: 80%;
+height:30px;
+background-color: #5dbae4;
+margin:auto;
+border:15px solid #5dbae4;
+	border-radius:5px;
+}
+form legend#fd{
+margin-top:-17px;
+}
+#totalCostButton{
+		display:block;
+margin:auto;
+margin-top:9px;
+width:200px;
+height:50px
+}
+table.tableSection {
+        display: table;
+        width: 100%;
+    }
+    table.tableSection thead, table.tableSection tbody {
+        float: left;
+        width: 100%;
+    }
+    table.tableSection tbody {
+        overflow: auto;
+        height: 130px;
+    }
+    table.tableSection tr {
+        width: 100%;
+        display: table;
+        text-align: left;
+    }
+    table.tableSection th, table.tableSection td {
+        width: 33%;
+    }
+	table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #ccc;
+}
+#deleteRowBtn{
+border-radius:20px;
+background-color:#FF5C5C
+;
+
+}
