@@ -152,27 +152,23 @@ function renderProducts()
 function deleteRow(r){
 	 
 	 var e = r.parentNode.parentNode.rowIndex;
-	 document.getElementById("tableFull").deleteRow(e);
+	
 	 var subtractCost = r.parentNode.parentNode.childNodes[1].childNodes[1].innerHTML;
 	 var subtractName = r.parentNode.parentNode.childNodes[0].childNodes[0].innerHTML;
-   
-		 if(parseInt(subtractCost) === costs.VPC) {
+    gTotalCost = gTotalCost - subtractCost;
+	 document.getElementById("tableFull").deleteRow(e);
+		 
+		 
+		console.log(gTotalCost);
+		if(subtractName === names.VPCS) {
 		 document.getElementById("VPCSubscription").checked = false;
 		 } 
-		  for (var n in names) {
-		  if(subtractName === names[n]){
-		  var valueBeingUsed = document.getElementById(n);
-		  valueBeingUsed.value = 0;
-		}
-		}
-	 gTotalCost = gTotalCost - subtractCost;
+	
 
 		var gTotalCostWithDecimalRemove = gTotalCost.toFixed(2);
 	 var newHTML =   "<div id='totalCostDivFinal'><b> Total cost: € "+ gTotalCostWithDecimalRemove +"</b> </div> "
 
 	 document.getElementById('totalCostAddHtmlDiv').innerHTML = newHTML;
-	/* var t = document.getElementById('tableFull');
-	for (var i = 0, row; row = t.rows[i]; i++) {	*/
 		//var te = t.childNodes[3].childNodes[i].rowIndex; 
 
 		 if(gTotalCost === 0) {
@@ -181,6 +177,12 @@ function deleteRow(r){
 
 			document.getElementById('totalCostAddHtmlDiv').innerHTML = newHTML;
 		 } 
+		  for (var n in names) {
+		  if(subtractName === names[n]){
+		  var valueBeingUsed = document.getElementById(n);
+		  valueBeingUsed.value = 0;
+		}
+		}
 }
 
 
