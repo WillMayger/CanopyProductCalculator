@@ -89,6 +89,14 @@ margin-top:500px;
 	color:grey;
 	margin-top:6px;
 } 
+#bpInfo{
+	border-radius:10px;
+     height:250px;
+     width:250px;
+	 margin:auto;
+	 background-color:#4182A0;
+	 margin-top:6px;
+}
 form  legend#bp{
 margin-top:298px;
 }
@@ -97,8 +105,7 @@ display:block;
 margin: auto;
 margin-top:9px;
 width:200px;
-height:50px;
-    
+height:50px; 
 }
 .additionalDiv{
 	border-radius:15px;
