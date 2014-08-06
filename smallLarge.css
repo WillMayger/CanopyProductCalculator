@@ -83,11 +83,12 @@ background-color: #FBFBFB;
 } 
 #bpInfoH2Div{
 background-color:#54A7CD;
-width: 230px;
+width: 200px;
 margin:auto;
 border-radius:10px;
 }
 .bpInfoH2{
+font-size:21px;
 	margin-left:5px;
 	color:white;
 }
