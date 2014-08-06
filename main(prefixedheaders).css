@@ -89,16 +89,21 @@ margin-top:500px;
 	color:grey;
 	margin-top:6px;
 } 
-#bpInfo{
-	border-radius:10px;
-     height:250px;
-     width:250px;
-	 margin:auto;
-	 background-color:#4182A0;
-	 margin-top:6px;
+.bpInfoH2{
+	margin-left:5px;
+	color:white;
+}
+#bpInfoH2MT{
+	margin-top:50px;
 }
 form  legend#bp{
-margin-top:298px;
+margin-top:119px;
+}
+#bpInfoH2Div{
+background-color:#54A7CD;
+width: 230px;
+margin:auto;
+border-radius:10px;
 }
 #plusButton{
 display:block;

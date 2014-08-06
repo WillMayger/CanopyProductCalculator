@@ -59,7 +59,7 @@ var costs =
 	 Bandwidth:0.14,
 	
 	 //( Virtual private Cloud Subscription)
-	 VPC:1371 
+	 VPC:1371.00.toFixed(2)
 };
 
 // Adding Products to array gProducts
@@ -139,7 +139,7 @@ function renderProducts()
 			 
 			 cell = row.insertCell(-1);
              cell.className = 'pure-table pure-table-horizontal';
-			  cell.onload = 'deleteCheckBoxTick()';
+			 cell.onload = 'deleteCheckBoxTick()';
 			 cell.id = 'tableRow' + index;
              cell.innerHTML = '<input type="button" value="X" class="pure-button pure-button-primary" id="deleteRowBtn" onclick="deleteRow(this)">';
              
@@ -169,7 +169,6 @@ function deleteRow(r){
 	 var newHTML =   "<div id='totalCostDivFinal'><b> Total cost: € "+ gTotalCostWithDecimalRemove +"</b> </div> "
 
 	 document.getElementById('totalCostAddHtmlDiv').innerHTML = newHTML;
-		//var te = t.childNodes[3].childNodes[i].rowIndex; 
 
 		 if(gTotalCost === 0) {
 
@@ -179,8 +178,11 @@ function deleteRow(r){
 		 } 
 		  for (var n in names) {
 		  if(subtractName === names[n]){
+		  
 		  var valueBeingUsed = document.getElementById(n);
+		  if (valueBeingUsed != null){
 		  valueBeingUsed.value = 0;
+		  }
 		}
 		}
 }
@@ -252,7 +254,7 @@ var t = document.getElementById('tableFull');
 				document.getElementById("tableFull").deleteRow(te);
 				
 				 gTotalCost = gTotalCost - subtractCost;
-		 
+		        
 		
 				}
 			} 
