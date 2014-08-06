@@ -81,8 +81,21 @@ background-color: #FBFBFB;
 	color:grey;
 	margin-top:4px;
 } 
+#bpInfoH2Div{
+background-color:#54A7CD;
+width: 230px;
+margin:auto;
+border-radius:10px;
+}
+.bpInfoH2{
+	margin-left:5px;
+	color:white;
+}
+#bpInfoH2MT{
+	margin-top:50px;
+}
 form  legend#bp{
-margin-top:235px;
+margin-top:55px;
 }
 #plusButton{
 display:block;
@@ -190,7 +203,7 @@ border:12px solid #5dbae4;
 border-radius:5px;
 }
 form legend#fd{
-margin-top:-14px;
+margin-top:34px;
 }
 #totalCostButton{
 		display:block;
